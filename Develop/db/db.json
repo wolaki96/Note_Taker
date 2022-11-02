@@ -1,6 +1,7 @@
 [
+  
     {
-        "Title":"Test Title",
-        "Text":"Test text"
+        "title": "Study Japanese",
+        "text": "Remember to study Japanese tonight!"
     }
 ]
