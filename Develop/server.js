@@ -1,7 +1,7 @@
 // connecting to db.json
 const fs = require('fs');
-// connect to unique id with uuid
-const uuid = require('uuid')
+
+
 //connect to express and path
 const express = require('express');
 const app = express();
