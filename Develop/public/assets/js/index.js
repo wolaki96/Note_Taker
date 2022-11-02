@@ -3,13 +3,6 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-// connecting to db.json
-const fs = require('fs');
-// let noteBase = fs.writeFileSync("db.json");
-// let notes = JSON.parse(noteBase);
-
-
-const uuid = require('uuid')
 
 
 if (window.location.pathname === '/notes') {
