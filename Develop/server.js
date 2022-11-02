@@ -6,6 +6,10 @@ const fs = require('fs');
 const express = require('express');
 const app = express();
 const path = require('path');
+
+// connect to the api
+app.use('/api', api);
+app.use(express.static('public'));
 // connect to port/server
 const PORT = process.env.PORT || 3001;
 // get the html for the index
